@@ -1,13 +1,13 @@
-# pmatrix-protocol-encoder-cli
+# pmatrix-protocol-encoder
 
-**P-MATRIX 4.0 Protocol Reference Encoder CLI** — Non-normative schema validation tool.
+**P-MATRIX Protocol Reference Encoder** — Non-normative schema validation tool.
 
-> **NON-NORMATIVE.** Normative authority: [4.0 TechRxiv Paper](DOI pending — Zenodo) §5–§8.  
+> **NON-NORMATIVE.** Normative authority: P-MATRIX: A Mutual Verification Protocol for Runtime Governance Across Autonomous Nodes (DOI pending — Zenodo) §5–§8.  
 > Canonical anchor: `pmatrix.io/schema/4.0.json`
 
 ## Overview
 
-Rust CLI that validates P-MATRIX 4.0 protocol messages against §5 schema definitions and §7 protocol invariants. Produces synthetic state vectors and replays the §8 two-node mutual verification scenario.
+Rust CLI that validates P-MATRIX mutual verification protocol messages against §5 schema definitions and §7 protocol invariants. Produces synthetic state vectors and replays the §8 two-node mutual verification scenario.
 
 **This encoder is intentionally non-normative.** It demonstrates schema conformance only and carries no authority over how runtime state values are computed in production systems.
 
@@ -87,6 +87,7 @@ Apache-2.0. Copyright © 2026 Dong Hun Lee.
 
 ## References
 
-- [13] P-MATRIX 4.0 Protocol Reference Encoder CLI. https://github.com/p-matrix/pmatrix-protocol-encoder
-- 4.0 TechRxiv Paper v1.1 §5–§8 (normative authority)
-- 3.5 pmatrix-encoder (pattern reference)
+- pmatrix-protocol-encoder: Reference encoder for mutual verification protocol schema conformance. https://github.com/p-matrix/pmatrix-protocol-encoder
+- P-MATRIX: A Mutual Verification Protocol for Runtime Governance Across Autonomous Nodes, §5–§8 (normative authority)
+- pmatrix-encoder (pattern reference)
+
