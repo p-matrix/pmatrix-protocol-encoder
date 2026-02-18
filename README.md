@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18683912.svg)](https://doi.org/10.5281/zenodo.18683912)
+
 # pmatrix-protocol-encoder
 
 **P-MATRIX Protocol Reference Encoder** — Non-normative schema validation tool.
