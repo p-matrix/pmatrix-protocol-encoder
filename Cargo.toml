@@ -1,0 +1,18 @@
+[package]
+name = "pmatrix-protocol-encoder-cli"
+version = "0.1.1"
+edition = "2021"
+description = "P-MATRIX 4.0 Protocol Reference Encoder CLI — Non-normative schema validation"
+license = "Apache-2.0"
+authors = ["Dong Hun Lee <architect@p-matrix.io>"]
+
+[[bin]]
+name = "pmatrix-protocol"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+regex = "1.10"
