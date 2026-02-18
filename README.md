@@ -4,8 +4,7 @@
 
 **P-MATRIX Protocol Reference Encoder** — Non-normative schema validation tool.
 
-> **NON-NORMATIVE.** Normative authority: P-MATRIX: A Mutual Verification Protocol for Runtime Governance Across Autonomous Nodes (DOI pending — Zenodo) §5–§8.  
-> Canonical anchor: `pmatrix.io/schema/4.0.json`
+> **NON-NORMATIVE.** Normative authority: [P-MATRIX: A Mutual Verification Protocol for Runtime Governance Across Autonomous Nodes](https://doi.org/10.5281/zenodo.18683912) §5–§8.
 
 ## Overview
 
